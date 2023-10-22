@@ -79,108 +79,101 @@
   </head>
 
   <body>
-    <main>
-      <div id="hero">
-        <div id="video-overlay"></div>
-        <div id="video-wrapper">
-          <video
-            preload="auto"
-            width="100%"
-            height="100%"
-            autoplay
-            muted
-            loop
-            playsinline
-            src="assets/bg_edited_3.mp4"
-          ></video>
-        </div>
-        <nav>
-          <div
-            style="z-index: 999; position: absolute; top: 0; right: 0; left: 0"
-            class="container"
-          >
-            <div class="nav">
-              <img
-                style="z-index: 100"
-                src="assets/logo.svg"
-                alt="Kirill Strunkov logo"
-                width="45"
-                height="43"
-              />
-              <ul class="nav-links">
-                <li><a href="#about-me" class="btn btn--nav">About me</a></li>
-                <li><a href="#projects" class="btn btn--nav">Projects</a></li>
-                <li><a href="#skills" class="btn btn--nav">Skills</a></li>
-                <li>
-                  <a href="#certificates" class="btn btn--nav">Certificates</a>
-                </li>
-                <li><a href="#hire-me" class="btn btn--raised">Hire me</a></li>
-              </ul>
-            </div>
-          </div>
-          <button aria-label="Toggle dark theme" id="toggle-theme">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 24 24"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="var(--light-icon)"
-            >
-              <rect fill="none" height="24" width="24" />
-              <path
-                d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
-              />
-            </svg>
-          </button>
-        </nav>
-        <section
-          style="
-            z-index: 999;
-            position: absolute;
-            top: 100px;
-            right: 0;
-            left: 0;
-          "
-          class="layout-section"
-          id="intro"
-          aria-describedby="intro-h1 intro-h2"
-        >
-          <div class="container">
-            <h1 class="title--lg" id="intro-h1">Kirill Strunkov</h1>
-            <h2 class="title" id="intro-h2">
-              Web Developer | Web Design Specialist <br />
-              Entry-Level
-            </h2>
-            <p class="text--xl">
-              Kirill is an entry-level web design specialist and web developer
-              with a solid foundation in <strong>HTML</strong>,
-              <strong>CSS</strong> and <strong>Adobe Softwares</strong>.
-            </p>
-            <p class="text--xl">
-              Kirill bring your idea to life with
-              <strong>innovative</strong> and
-              <strong>responsive web design.</strong>
-            </p>
-          </div>
-          <button id="scroll-down" aria-label="scroll-down">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="48px"
-              viewBox="0 0 24 24"
-              width="48px"
-              fill="var(--light-icon)"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" />
-              <path
-                d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
-                stroke="var(--light-icon)"
-              />
-            </svg>
-          </button>
-        </section>
+    <header id="hero">
+      <div id="video-overlay"></div>
+      <div id="video-wrapper">
+        <video
+          preload="auto"
+          width="100%"
+          height="100%"
+          autoplay
+          muted
+          loop
+          playsinline
+          src="assets/bg_edited_3.mp4"
+        ></video>
       </div>
-
+      <nav>
+        <div
+          style="z-index: 999; position: absolute; top: 0; right: 0; left: 0"
+          class="container"
+        >
+          <div class="nav">
+            <img
+              style="z-index: 100"
+              src="assets/logo.svg"
+              alt="Kirill Strunkov logo"
+              width="45"
+              height="43"
+            />
+            <ul class="nav-links">
+              <li><a href="#about-me" class="btn btn--nav">About me</a></li>
+              <li><a href="#projects" class="btn btn--nav">Projects</a></li>
+              <li><a href="#skills" class="btn btn--nav">Skills</a></li>
+              <li>
+                <a href="#certificates" class="btn btn--nav">Certificates</a>
+              </li>
+              <li><a href="#hire-me" class="btn btn--raised">Hire me</a></li>
+            </ul>
+          </div>
+        </div>
+        <button aria-label="Toggle dark theme" id="toggle-theme">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="var(--light-icon)"
+          >
+            <rect fill="none" height="24" width="24" />
+            <path
+              d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
+            />
+          </svg>
+        </button>
+      </nav>
+      <section
+        style="z-index: 999; position: absolute; top: 100px; right: 0; left: 0"
+        class="layout-section"
+        id="intro"
+        aria-describedby="intro-h1 intro-h2"
+      >
+        <div class="container">
+          <h1 class="title--lg" id="intro-h1">Kirill Strunkov</h1>
+          <h2 class="title" id="intro-h2">
+            Web Developer | Web Design Specialist <br />
+            Entry-Level
+          </h2>
+          <p class="text--xl">
+            Kirill is an entry-level web design specialist and web developer
+            with a solid foundation in <strong>HTML</strong>,
+            <strong>CSS</strong> and <strong>Adobe Softwares</strong>.
+          </p>
+          <p class="text--xl">
+            Kirill bring your idea to life with
+            <strong>innovative</strong> and
+            <strong>responsive web design.</strong>
+          </p>
+        </div>
+        <button id="scroll-down" aria-label="scroll-down">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="48px"
+            viewBox="0 0 24 24"
+            width="48px"
+            fill="var(--light-icon)"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+              stroke="var(--light-icon)"
+            />
+          </svg>
+        </button>
+      </section>
+    </header>
+    <main>
       <section
         id="about-me"
         class="layout-section"
