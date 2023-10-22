@@ -1,0 +1,34 @@
+/* Defaults */
+
+a {
+  color: var(--anchor-color);
+  opacity: 0.85;
+  transition: opacity 200ms;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+p {
+  color: var(--gray-light);
+}
+
+ul li {
+  margin-block: 5px;
+  color: var(--gray-light);
+}
+
+strong {
+  font-weight: inherit;
+}
+
+figure,
+blockquote,
+ul {
+  margin: 0;
+}
+
+figcaption {
+  margin-block: 25px;
+}
